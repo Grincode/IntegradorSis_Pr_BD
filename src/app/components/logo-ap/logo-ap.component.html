@@ -1,0 +1,35 @@
+<header>
+    <a class="navbar-brand" href="https://argentinaprograma.inti.gob.ar/">
+      <img
+        src="../../../assets/img/GlobalIsso_logo.svg"
+        alt="Logo GlobalIsso"
+        id="logo"
+        data-aos="zoom-out" data-aos-duration="1500"/>
+    </a>
+  <nav>
+    <ul>
+      <li><a href="">Inicio</a></li>
+  
+      <li>
+          <form class="list-group-item" role="login">
+            <button
+              type="button"
+              class="btn btn-outline-light btn-sm"
+              (click)="login()"
+              *ngIf="!isLogged"
+            >
+              INGRESAR
+            </button>
+            <button
+              type="button"
+              class="btn btn-outline-light btn-sm"
+              (click)="onLogout()"
+              *ngIf="isLogged"
+            >
+              SALIR
+            </button>
+          </form>
+        </li>
+      </ul>
+  </nav>
+  </header>

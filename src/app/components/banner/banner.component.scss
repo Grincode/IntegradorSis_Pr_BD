@@ -1,0 +1,83 @@
+$primario: #1D2638;
+$secundario: #0071BB;
+$txt: #767987;
+
+
+
+
+body {
+    background-color: #f1f1f1;
+    font-family: 'Monserat', sans-serif;
+    font-size: 16px;
+}
+
+.servicios {
+    align-items: center;
+    background: linear-gradient(180deg, rgba(0,0,0,0.6) 26.56%, rgba(29,38,56,0.2) 100%), url(../../../assets/img/primer-plano-taza-cafe-portatil-gafas.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 434px;
+    position: relative;
+
+    h3 {
+        color: #fff;
+        font-size: 3rem;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+
+
+}
+
+.item__servicios {   
+    align-items: center;     
+    background-color: #ffffff;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -5rem;
+    min-height: 324px;
+    text-align: center;
+
+    transition: 0.5 linear all;
+
+    &:hover{
+        background-color: $secundario;
+
+        h4, p{
+            color: #fff;
+        }
+
+        a{
+            color: $primario;
+        }
+
+    }
+
+    h4 {
+        color: $primario;
+        font-size: 40px;
+        font-weight: bold;
+        margin-top: 1rem;
+    }
+
+    p{
+        color: $txt;
+        font-size: 14px;
+        margin: 1rem 0;
+    }
+
+    a{
+        color: $secundario;
+        display: inline-block;
+        font-size: semibold;
+        margin-top: 0.5rem;
+        letter-spacing: 1cqw;
+    }
+
+}
