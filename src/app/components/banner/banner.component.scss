@@ -2,9 +2,6 @@ $primario: #1D2638;
 $secundario: #0071BB;
 $txt: #767987;
 
-
-
-
 body {
     background-color: #f1f1f1;
     font-family: 'Monserat', sans-serif;
@@ -33,6 +30,8 @@ body {
 }
 
 .item__servicios {   
+    position: relative;
+    bottom: 0;    
     align-items: center;     
     background-color: #ffffff;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
@@ -77,7 +76,7 @@ body {
         display: inline-block;
         font-size: semibold;
         margin-top: 0.5rem;
-        letter-spacing: 1cqw;
+        letter-spacing: 1px;
     }
 
 }
