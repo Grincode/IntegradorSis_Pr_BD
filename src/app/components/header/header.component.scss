@@ -1,3 +1,8 @@
+$primario: #1D2638;
+$secundario: #0071BB;
+$orange: #F48120;
+$txt: #767987;
+
 .header-container {
     margin-top: 5px;
     display: flex;
@@ -31,7 +36,9 @@
     }
     
     a:hover {
-        color: #555;
+        color: $orange;
+        font-weight: bold;
+        transition: all 0.4s ease;
     }
 
 }

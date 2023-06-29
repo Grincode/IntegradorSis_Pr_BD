@@ -9,6 +9,11 @@ import { HeaderComponent } from './components/header/header.component';
 import { SiderbarComponent } from './components/siderbar/siderbar.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { LogoAPComponent } from './components/logo-ap/logo-ap.component';
+import { AcercadeComponent } from './components/acercade/acercade.component';
+import { ProductosComponent } from './components/productos/productos.component';
+import { ServiciosComponent } from './components/servicios/servicios.component';
+import { ContactoComponent } from './components/contacto/contacto.component';
+import { AsideComponent } from './components/aside/aside.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +23,12 @@ import { LogoAPComponent } from './components/logo-ap/logo-ap.component';
     HeaderComponent,
     SiderbarComponent,
     BannerComponent,
-    LogoAPComponent
+    LogoAPComponent,
+    AcercadeComponent,
+    ProductosComponent,
+    ServiciosComponent,
+    ContactoComponent,
+    AsideComponent
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

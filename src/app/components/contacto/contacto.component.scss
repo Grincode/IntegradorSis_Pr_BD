@@ -1,0 +1,87 @@
+$primario: #1D2638;
+$secundario: #0071BB;
+$orange: #F48120;
+$txt: #767987;
+
+
+
+*{
+    margin: 0;
+    padding: 0 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background: #fff;
+}
+
+.wellcome{
+    padding: 20px;
+    margin-top: 40px;
+    text-align: center;
+    
+}
+
+.wellcome h1 {
+    color: $secundario;
+    font-size: 46px;
+}
+
+.wellcome h4 {
+    color: $primario;
+    font-size: 12px;
+}
+
+.form-contacto .h4{
+    color: $secundario;
+    font-size: 22px;
+    margin-bottom: 20px;
+    
+}
+
+.form-contacto{
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50PX;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    margin-bottom: 50px;
+    box-shadow: 7px 13px 37px #000;
+
+
+}
+
+.controls{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+}
+
+.form-contacto .boton{
+    width: 100%;
+    background: $secundario;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+
+}
+
+.form-contacto .boton:hover{
+    background: $orange;
+    font-weight: bold;
+    transition: all 0.4s ease;
+    
+}
+
+
